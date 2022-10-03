@@ -11,7 +11,7 @@ A simple starting point for fast Websites :-)
 
 ## Getting started
 
-Start by [generating a new repository based on this project](https://github.com/iLord-DEV/lords-eleventy-starter.git/generate).
+Start by [generating a new repository based on this project](https://github.com/iLord-DEV/lords-eleventy-vite-starter.git/generate).
 
 Make sure you are using Node >= v16!
 
@@ -57,7 +57,7 @@ npx @11ty/eleventy
 
 ## Deploy a fork of this template to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iLord-DEV/lords-eleventy-starter.git)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iLord-DEV/lords-eleventy-vite-starter.git)
 
 ## CSS
 
