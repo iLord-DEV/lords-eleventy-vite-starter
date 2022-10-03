@@ -1,0 +1,7 @@
+/* montserrat-regular - latin */
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('/fonts/montserrat-v25-latin-500.woff') format('woff');
+}
