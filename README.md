@@ -55,10 +55,6 @@ or
 npx @11ty/eleventy
 ```
 
-## Deploy a fork of this template to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iLord-DEV/lords-eleventy-vite-starter.git)
-
 ## CSS
 
 I switched from using Sass the past years to PostCSS and never looked back. You can write good ol CSS or use the missing benefits from Sass via PostCSS-Plugins. Like @import, Nesting, and even the hot stuff from the Future ;-)
