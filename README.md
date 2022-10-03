@@ -11,7 +11,7 @@ A simple starting point for fast Websites :-)
 
 ## Getting started
 
-Start by [generating a new repository based on this project](https://github.com/iLord-DEV/lords-eleventy-vite-starter.git/generate).
+Start by [generating a new repository based on this project](https://github.com/iLord-DEV/lords-eleventy-vite-starter/generate).
 
 Make sure you are using Node >= v16!
 
