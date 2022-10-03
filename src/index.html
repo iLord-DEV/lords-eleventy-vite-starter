@@ -4,14 +4,28 @@
 		<meta charset="UTF-8" />
 		<title>Document</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		{#
 		<link rel="stylesheet" href="/css/critical.css" />
+		#}
 		<script type="module" src="/js/main.js"></script>
+
+		<!-- classless starter framework - delte this and build your own ;-) -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+		/>
 		<!--  Get your <head> straight! https://www.youtube.com/watch?v=MHyAOZ45vnU -->
 	</head>
 	<body>
-		<h1>Lords Eleventy Vite Starter</h1>
-		<sub>Work in progress</sub><br />
-		{% image "src/img/platzhalter.jpg", "Alt or empty", "(min-width: 30em) 50vw,
-		100vw", "class" %}
+		<main>
+			<hr />
+			<section>
+				<h1>Eleventy Starter</h1>
+				<p>This is just the foundation of something great! :-)</p>
+
+				{% image "src/img/platzhalter.jpg", "Alt or empty", "(min-width: 30em)
+				50vw, 100vw", "class" %}
+			</section>
+		</main>
 	</body>
 </html>
