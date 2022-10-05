@@ -15,7 +15,7 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
   padding: get-size('600') ;
-
+  // background-color: red;
 
   @include apply-utility('weight', 'regular');
   @include apply-utility('font', 'base');
@@ -59,7 +59,12 @@ th {
 
 /* Composition */
 .flow > * + * {
-  margin-top: var(--flow-space), 1rem;
+  margin-top:  2em;
+}
+
+.wrapper {
+  max-width: 65rem;
+  margin-inline: auto
 }
 
 /* Utilities */
