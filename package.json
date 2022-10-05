@@ -28,11 +28,13 @@
   "homepage": "https://github.com/iLord-DEV/lords-eleventy-starter.git#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-canary.16",
-    "@11ty/eleventy-plugin-vite": "^2.0.0-canary.2",
     "@11ty/eleventy-img": "^2.0.1",
+    "@11ty/eleventy-plugin-vite": "^2.0.0-canary.2",
     "autoprefixer": "^10.4.12",
+    "gorko": "^0.9.1",
     "postcss-import": "^15.0.0",
     "postcss-nested": "^5.0.6",
-    "postcss-preset-env": "^7.8.2"
+    "postcss-preset-env": "^7.8.2",
+    "sass": "^1.55.0"
   }
 }

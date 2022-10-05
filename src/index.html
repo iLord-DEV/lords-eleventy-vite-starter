@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<title>Document</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		{#
-		<link rel="stylesheet" href="/css/critical.css" />
-		#}
-		<script type="module" src="/js/main.js"></script>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-		<!-- classless starter framework - delte this and build your own ;-) -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
-		/>
-		<!--  Get your <head> straight! https://www.youtube.com/watch?v=MHyAOZ45vnU -->
-	</head>
-	<body>
-		<main>
-			<hr />
-			<section>
-				<h1>Eleventy Starter</h1>
-				<p>This is just the foundation of something great! :-)</p>
+    <script type="module" src="/js/main.js"></script>
+    <link rel="stylesheet" href="/css/global.scss" />
+    <!--  Get your <head> straight! https://www.youtube.com/watch?v=MHyAOZ45vnU -->
+  </head>
+  <body class="">
+    <a href="#main-content" class="visible-hidden">Skip to main content</a>
 
-				{% image "src/img/platzhalter.jpg", "Alt or empty", "(min-width: 30em)
-				50vw, 100vw", "class" %}
-			</section>
-		</main>
-	</body>
+    <!-- navigation and header content -->
+
+    <main id="main-content">
+      <article>
+        <h1>Eleventy Starter 🚀</h1>
+        <p>This is a pure Eleventy 2.0 Starter Template.</p>
+        <ul>
+          <li>Eleventy 2.0</li>
+          <li>Vite</li>
+          <li>Image processing</li>
+          <li>Sass</li>
+          <li><s>PostCSS</s></li>
+          <li>Cube CSS</li>
+        </ul>
+<p>It it has by now no functions like Data and so on. But it could be the start of something great :-)</p>
+        {# {% image "src/img/platzhalter.jpg", "Alt or empty", "(min-width: 30em)
+        50vw, 100vw", "class" %} #}
+      </article>
+    </main>
+  </body>
 </html>
