@@ -63,9 +63,6 @@ Sass or PostCSS
 
 Images are optimized and inserted via shortcode to your template files.
 
-## Known Bugs/Quirks
-
-* Vite does not hande files in the publich folder as expected
-* sharpOptions not working?
+##
 
 [Autoprefixer](https://github.com/postcss/autoprefixer) adds necessary browser prefixes. The [browserslist](https://github.com/browserslist/browserslist) settings can be adjusted in `package.json`.
