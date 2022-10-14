@@ -59,7 +59,7 @@ npx @11ty/eleventy
 
 Sass or PostCSS 
 
-CSS methodology: CUBE (give it a try or use your own)
+CSS methodology: CUBE CSS (give it a try or use your own) [https://cube.fyi](https://cube.fyi)
 
 [Autoprefixer](https://github.com/postcss/autoprefixer) adds necessary browser prefixes. The [browserslist](https://github.com/browserslist/browserslist) settings can be adjusted in `package.json`.
 
